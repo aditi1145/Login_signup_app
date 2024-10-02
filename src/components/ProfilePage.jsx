@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { json } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 
 const ProfilePage = () => {
