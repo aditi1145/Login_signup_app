@@ -39,20 +39,10 @@
     font-size: 1rem;
   }
   
-#signin {
-    font-size: 14px;
-    font-weight: bold;
-    color: #4a1942; 
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    position: absolute; 
-    top: 10px; 
-    right: 10px; 
-}
-
-#signin:hover {
-    color: #822659; 
-    text-decoration: underline; 
-}
-  
+  p {
+    display: block;
+    margin-top: 1rem;
+    text-align: right;
+    color: #6e00fa;
+    text-decoration: none;
+  }
