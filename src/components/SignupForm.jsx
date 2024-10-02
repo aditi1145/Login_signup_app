@@ -54,7 +54,7 @@ const SignupForm = () => {
             placeholder="First Name"
             value={formData.firstName}
             onChange={handleChange}
-            hidden={otpSubmit == true}
+            hidden={otpSubmit === true}
           />
         </div>
         <div className="input-group">
@@ -64,7 +64,7 @@ const SignupForm = () => {
             placeholder="Last Name"
             value={formData.lastName}
             onChange={handleChange}
-            hidden={otpSubmit == true}
+            hidden={otpSubmit === true}
           />
         </div>
         <div className="input-group">
@@ -83,7 +83,7 @@ const SignupForm = () => {
             placeholder="Retype Password"
             value={formData.confirmPassword}
             onChange={handleChange}
-            hidden={otpSubmit == true}
+            hidden={otpSubmit === true}
           />
         </div>
         <div className="input-group">
@@ -91,7 +91,7 @@ const SignupForm = () => {
             name="contactMode"
             value={formData.contactMode}
             onChange={handleChange}
-            hidden={otpSubmit == true}
+            hidden={otpSubmit === true}
           >
             <option value="" disabled selected>Contact Mode</option>
             <option value="Email">Email</option>
@@ -115,7 +115,7 @@ const SignupForm = () => {
             placeholder="otp"
             value={formData.otp}
             onChange={handleChange}
-            hidden={otpSubmit != true}
+            hidden={otpSubmit !== true}
           />
         </div>
         <button type="submit">{otpSubmit ? "Verify Otp" : "Sign Up"}</button>
