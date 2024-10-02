@@ -122,8 +122,8 @@ const SignupForm = () => {
           />
         </div>
         <button type="submit">{otpSubmit ? "Verify Otp" : "Sign Up"}</button>
-      </form>
-      <p onClick={handlesignin}>Sign In</p>
+        <button id="signin" onClick={handlesignin}>Sign In</button>
+      
     </div>
   );
 };
