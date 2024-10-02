@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width:100%;
+}
+
+.login-signup-container {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.illustration {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustration-content {
+    text-align: center;
+}
+
+.illustration-content img {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top:0;
+    left:0;
+    width:50%;
+    height:100%;
+    margin-bottom: 20px;
+}
+
+.illustration-content p {
+    font-size: 30px;
+    color: #6c63ff;
+}
+
+.auth-form-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.auth-form h3 {
+    font-size: 24px;
+    color: #6c63ff;
+    margin-bottom: 1rem;
+}
+
+.input-group {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.sign-btn, .switch-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.sign-btn {
+    background-color: #6c63ff;
+    color: white;
+}
+
+.switch-btn {
+    background-color: white;
+    border: 2px solid #6c63ff;
+    color: #6c63ff;
+}
+
+.sign-btn:hover, .switch-btn:hover {
+    opacity: 0.9;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+}

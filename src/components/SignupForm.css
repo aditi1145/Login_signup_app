@@ -1,0 +1,49 @@
+.signup-form-container {
+    background-color: white;
+    padding: 2rem;
+    position: fixed;
+    top:0;
+    right: 30px;
+    width:40vw;
+    height:80vh;
+
+  }
+  
+  h2 {
+    margin-bottom: 1.5rem;
+    color: #6e00fa;
+    font-size: 1.5rem;
+  }
+  
+  .input-group {
+    margin-bottom: 1rem;
+  }
+  
+  .input-group input,
+  .input-group select {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #6e00fa;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  a {
+    display: block;
+    margin-top: 1rem;
+    text-align: right;
+    color: #6e00fa;
+    text-decoration: none;
+  }
+  

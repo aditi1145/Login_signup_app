@@ -1,0 +1,6 @@
+src/
+|-- components/
+|   |-- SignupForm.js
+|   |-- SignupIllustration.js
+|-- App.js
+|-- App.css
