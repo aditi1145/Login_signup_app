@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './SignupForm.css';
 import axios from 'axios';
-
+import { useNavigate } from 'react-router-dom';
 
 const SignupForm = () => {
   const [formData, setFormData] = useState({
@@ -36,7 +36,7 @@ const SignupForm = () => {
     axios.post(`${process.env.REACT_APP_BASE_URL}/api/verify-otp`, formData)
     .then(() => {
       alert(`Otp Verified!`);
-      window.location = '/login'
+      navigate('/login'); 
     })
     .catch((error) => {
       alert("Couldn't verify otp or Wrong otp entered!");
