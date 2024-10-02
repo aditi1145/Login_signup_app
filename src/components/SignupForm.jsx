@@ -13,7 +13,7 @@ const SignupForm = () => {
     email: '',
     otp: '',
   });
-   
+  const navigate= useNavigate() 
   const [otpSubmit, setOtpSubmit] = useState(false);
   const handlesignin = () => {
      navigate('/login'); 
