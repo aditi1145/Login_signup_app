@@ -15,6 +15,9 @@ const SignupForm = () => {
   });
    
   const [otpSubmit, setOtpSubmit] = useState(false);
+  const handlesignin = () => {
+     navigate('/login'); 
+  }
 
   const handleChange = (e) => {
     setFormData({
@@ -120,7 +123,7 @@ const SignupForm = () => {
         </div>
         <button type="submit">{otpSubmit ? "Verify Otp" : "Sign Up"}</button>
       </form>
-      <a href="/login">Sign In</a>
+      <p onClick={handlesignin}>Sign In</p>
     </div>
   );
 };
