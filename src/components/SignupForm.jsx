@@ -109,9 +109,11 @@ const SignupForm = () => {
             onChange={handleChange}
             hidden={otpSubmit === true}
           />
-          <span className="password-toggle-icon" onClick={toggleConfirmPasswordVisibility} hidden={otpSubmit === true}>
-            {showConfirmPassword ? '🙈' : '👁️'} 
-          </span>
+           {!otpSubmit && (  
+    <span className="password-toggle-icon" onClick={toggleConfirmPasswordVisibility}>
+      {showConfirmPassword ? '🙈' : '👁️'}  
+    </span>
+  )}
         </div>
 
         <div className="input-group">
