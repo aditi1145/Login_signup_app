@@ -3,7 +3,9 @@ import './AuthForm.css';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import illustration from '../assets/signin_illustration.png'; 
-
+ const handlesignin = () => {
+     navigate('/login'); 
+  }
 const LoginPage = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
