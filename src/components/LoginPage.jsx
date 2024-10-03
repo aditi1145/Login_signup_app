@@ -55,7 +55,7 @@ const LoginPage = () => {
                         />
                     </div>
                     <button type="submit" className="sign-btn">Sign In</button>
-                    <button className="switch-btn" onClick={handleSignin}>Sign Up</button>
+                    <button className="switch-btn" onClick={handlesignin}>Sign Up</button>
                 </form>
             </div>
         </div>
