@@ -11,8 +11,8 @@ const LoginPage = () => {
     const [error, setError] = useState('');
     const navigate = useNavigate();
  
-     const handlesignin = () => {
-     navigate('/login'); 
+     const handlesignup = () => {
+     navigate('/register'); 
   }
     const handleLogin = async (e) => {
         e.preventDefault();
@@ -55,7 +55,7 @@ const LoginPage = () => {
                         />
                     </div>
                     <button type="submit" className="sign-btn">Sign In</button>
-                    <button className="switch-btn" onClick={handlesignin}>Sign Up</button>
+                    <button className="switch-btn" onClick={handlesignup}>Sign Up</button>
                 </form>
             </div>
         </div>
