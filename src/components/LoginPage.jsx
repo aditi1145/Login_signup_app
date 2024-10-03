@@ -11,7 +11,7 @@ const LoginPage = () => {
     const [error, setError] = useState('');
     const navigate = useNavigate();
  
-     const handlesignin = async () => {
+     const handlesignin = () => {
      navigate('/login'); 
   }
     const handleLogin = async (e) => {
