@@ -9,7 +9,9 @@ const LoginPage = () => {
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
     const navigate = useNavigate();
-
+     const handlesignin = () => {
+     navigate('/login'); 
+  }
     const handleLogin = async (e) => {
         e.preventDefault();
         try {
@@ -51,7 +53,7 @@ const LoginPage = () => {
                         />
                     </div>
                     <button type="submit" className="sign-btn">Sign In</button>
-                    <button className="switch-btn" onClick={() => window.location = '/signup'}>Sign Up</button>
+                    <button className="switch-btn" onClick={handleSignin}>Sign Up</button>
                 </form>
             </div>
         </div>
